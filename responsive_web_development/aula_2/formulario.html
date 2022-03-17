@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <section>
+      <form id="form">
+        <fieldset>
+          <label for="titulo">Título</label>
+          <input type="text" id="titulo" name="titulo" placeholder="Titulo" />
+          <br /><br />
+
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Nome completo"
+          />
+          <br /><br />
+
+          <label for="tel">Telefone</label>
+          <input type="text" id="tel" name="tel" placeholder="(xxx) xxxxxxx" />
+          <label>(Opcional)</label>
+          <br /><br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="seuemail@seuemail.com"
+          />
+          <br /><br />
+
+          <label for="site">Site</label>
+          <input type="url" id="site" name="site" placeholder="Seu site" />
+          <label>(Opcional)</label>
+          <br /><br />
+
+          <label for="numitens">Número de itens</label>
+          <input type="number" id="numitens" name="numitens" min="1" max="10" />
+          <br /><br />
+
+          <label for="tamanho">Tamanho</label>
+          <input type="range" step="10" value="0" name="tamnho" id="tamanho" />
+          <br /><br />
+
+          <label for="data">Data</label>
+          <input type="date" id="data" name="data" />
+          <br /><br />
+
+          <label for="h">Hora</label>
+          <input type="time" id="h" name="h" />
+          <br /><br />
+
+          <input type="submit" value="Enviar" name="enviar" id="enviar" />
+        </fieldset>
+        <br /><br />
+
+        <fieldset>
+          <label for="pesq">Pesquisar</label>
+          <input type="search" name="pesq" id="pesq" />
+          <input type="button" name="pesquisar" id="pesquisar" value="OK" />
+        </fieldset>
+        <br />
+        <br />
+
+        <fieldset>
+          <label for="progre">Progresso</label>
+          <progress value="80" min="1" max="100">50%</progress>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>

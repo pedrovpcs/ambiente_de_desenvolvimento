@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 02</title>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <img src="img/banner.jpg" width="800px" height="150px" />
+        <h1>Curso de Programação Web</h1>
+      </header>
+
+      <nav>
+        <ul style="list-style: none">
+          <li><a href="index.html">Início</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <form id="cadastro">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" /><br /><br />
+
+          <label for="nasc">Data de Nascimento</label>
+          <input
+            type="date"
+            name="nasc"
+            id="nasc"
+            min="2000-01-01"
+            max="2020-01-01"
+          /><br /><br />
+
+          <label for="cpf">CPF</label>
+          <input type="number" name="cpf" id="cpf" /><br /><br />
+
+          <input type="radio" name="genero" id="genero" value="Masculino" />
+          <label for="genero">Masculino</label>
+
+          <input type="radio" name="genero" id="genero" value="Feminino" />
+          <label for="genero">Feminino</label>
+
+          <input type="radio" name="genero" id="genero" value="Outro" />
+          <label for="genero">Outro</label>
+          <input type="text" name="outro" id="outr" /><br /><br />
+
+          <h2>Você possui algum tipo de deficiência?</h2>
+
+          <input type="checkbox" name="nenhuma" id="nenhuma" value="Nenhuma" />
+          <label for="nenhuma">Nenhuma</label>
+
+          <input type="checkbox" name="fisica" id="fisica" value="física" />
+          <label for="física">Física</label>
+
+          <input type="checkbox" name="visual" id="visual" value="Visual" />
+          <label for="visual">Visual</label><br /><br />
+
+          <label for="estado">Selecione o estado:</label>
+          <select id="estado" name="estado">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Ceará">Ceará</option>
+          </select>
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Contato</legend>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+          />
+          <label for="fone">Telefone</label>
+          <input type="tel" id="tel" name="tel" />
+
+          <br /><br />
+          <label for="msg">Digite sua mensagem</label><br />
+          <textarea name="msg" id="msg" rows="10" cols="30"></textarea>
+        </fieldset>
+        <br /><br />
+        <input type="submit" name="enviar" id="enviar" value="Enviar" />
+      </form>
+    </section>
+  </body>
+</html>

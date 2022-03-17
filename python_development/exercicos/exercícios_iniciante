@@ -1,0 +1,26 @@
+"""
+# Fazer um algoritmo que calcule a média de dois valores
+# - ler o primeiro numero
+# - ler o segundo numero
+# - calcular a media
+# - exibir o resultado
+
+# Exercício 1. Dado um numero pelo usuário, calcular o dobro
+# Entrada: 6    Saída: 12
+
+# Exercício 2. Dado um numero pelo usuário, calcular o quadrado
+# Entrada: 3    Saída: 9
+
+# Exercício 3. Dado um numero pelo usuário, exibir o anterior e posterior
+# Entrada: 23    Saída: 22 24
+
+# Exercício 1. Dados dois numeros pelo usuário, calcular a potencia
+# Entrada: 2 4    Saída: 16
+
+# Exercício 1. Dado um numero pelo usuário, exibir o proximo multiplo de 5
+# Entrada: 8    Saída: 10
+# Entrada: 15    Saída: 20
+# Entrada: 1    Saída: 5
+# Entrada: 89   Saída: 90
+# ######### Observação: Resolver este exercício utilizando somente os comandos de entrada, saída e processamento de dados
+"""
