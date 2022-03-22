@@ -1,6 +1,6 @@
 #!/bin/python env
 
-# Exercício 1. Dado um numero pelo usuário, exibir o proximo multiplo de 5
+# Exercício 5. Dado um numero pelo usuário, exibir o proximo multiplo de 5
 # Entrada: 8    Saída: 10
 # Entrada: 15    Saída: 20
 # Entrada: 1    Saída: 5
@@ -9,4 +9,6 @@
 
 n1 = input("Digite um número para saber o próximo que será múltiplo de 5: ")
 n1 = int(n1)
-r1 = n1
+r1 = n1 // 5 * 5 + 5
+print(f"O próximo multiplo de 5 será: {r1}\n")
+    

@@ -5,5 +5,5 @@
 
 n1 = input("Digite o número que deseja saber o dobro:")
 n1 = float(n1)
-r1 = n1*2
+r1 = n1 * 2
 print(f"Resposta:{r1}\n")

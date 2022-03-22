@@ -14,13 +14,57 @@
 # Exercício 3. Dado um numero pelo usuário, exibir o anterior e posterior
 # Entrada: 23    Saída: 22 24
 
-# Exercício 1. Dados dois numeros pelo usuário, calcular a potencia
+# Exercício 4. Dados dois numeros pelo usuário, calcular a potencia
 # Entrada: 2 4    Saída: 16
 
-# Exercício 1. Dado um numero pelo usuário, exibir o proximo multiplo de 5
+# Exercício 5. Dado um numero pelo usuário, exibir o proximo multiplo de 5
 # Entrada: 8    Saída: 10
 # Entrada: 15    Saída: 20
 # Entrada: 1    Saída: 5
 # Entrada: 89   Saída: 90
 # ######### Observação: Resolver este exercício utilizando somente os comandos de entrada, saída e processamento de dados
 """
+
+
+
+Lista de Exercícios (Python)
+
+
+6. Fazer um algoritmo que calcule a média de 4 números dados pelo usuário.
+Entrada:	1 4 6 2 Saída:	3.25
+Entrada:	6 0 5 8 Saída:	4.75
+
+
+
+7. Dada a quilometragem parcial de um carro e a quantidade de litros gastos por um carro
+para percorrer esta quilometragem, fazer um algoritmo que calcule quantos Km/l o
+carro percorreu.
+Entrada:	345.6 25.4 Saída:	13.6
+Entrada:	556.1 59.7 Saída:	9.31	
+
+
+
+8. Dado o preço do maço de cigarros, a quantidade de maços consumidos por dia e o
+tempo em anos que a pessoa fuma, calcular o quanto esta pessoa já́gastou fumando.
+Entrada:	10 1	 3	 Saída:	10950
+Entrada:	11.5	 2 5	 Saída:	41975
+
+
+
+9. Um caixa eletrônico dispensa cédulas de 50, 20 e 10 reais. Considerando que a
+quantia seja múltiplo de 10, fazer um algoritmo que exiba um relatório com quantas
+cédulas de cada serão necessárias para compor esta quantia.
+Entrada: 130 Saída: 50=2	 20=1	 10=1
+Entrada: 270	 Saída: 50=5	 20=1 10=0	
+
+
+
+10. Dada a quantidade de minutos, fazer um algoritmo que calcule quantas horas e
+minutos este tempo compõe.
+Entrada: 150 Saída: 2h30m
+
+
+
+6. Dada a quantidade de segundos, fazer um algoritmo que calcule quantas horas,
+minutos e segundos este tempo compõe.
+Entrada: 4000 Saída: 1h06m40s
