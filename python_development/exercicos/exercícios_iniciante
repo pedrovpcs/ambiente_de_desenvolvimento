@@ -65,6 +65,6 @@ Entrada: 150 Saída: 2h30m
 
 
 
-6. Dada a quantidade de segundos, fazer um algoritmo que calcule quantas horas,
+11. Dada a quantidade de segundos, fazer um algoritmo que calcule quantas horas,
 minutos e segundos este tempo compõe.
 Entrada: 4000 Saída: 1h06m40s
