@@ -1,0 +1,38 @@
+EXERCÍCIOS:
+1. Dada uma frase pelo usuário, fazer o que cada rotina solicita:
+Exemplo de frase:            ENTRADA: “estou gostando de string no python”
+ Exibir a quantidade de caracteres da frase
+	SAÍDA: 34
+
+
+2. Exibir o primeiro e o último caractere da frase
+	SAÍDA: en
+
+
+3. Exibir os caracteres de três em três
+	SAÍDA: eogtddsi  tn
+
+
+4. Dada uma letra, contar quantos caracteres existem na frase.
+	ENTRADA: boa noite | o               SAÍDA: 2
+
+
+5. Dada uma frase, contar quantas vogais existem nela.
+	ENTRADA: boa noite                      SAÍDA: 5
+
+
+6. Dada uma frase, exibir a primeira palavra.
+	ENTRADA: estou gostando de string no python                      SAÍDA: estou
+
+
+7. Dada uma frase, exibir a ultima palavra.
+	ENTRADA: estou gostando de string no python                      SAÍDA: python
+
+
+8. Dada uma frase, contar a quantidade de palavras
+	ENTRADA: estou gostando de string no python                      SAÍDA: 6
+
+
+9. Dada uma frase, exibí-la de trás pra frente
+	ENTRADA: estou gostando de string no python                      
+	SAÍDA: 	  nohtyp on gnirts ed odnatsog uotse			

@@ -1,0 +1,100 @@
+html {
+    font-size: 16px; /* Para dar um tamnho padrã oem toda a estrutura da tag html*/
+}
+
+body {
+    background-color: burlywood;
+}
+
+#container {
+    width: 80%;
+    display: flex; /*  faz com que os elementos fiquem um ao lado do outro*/
+    flex-wrap: wrap; /*A tag wrap faz uma quebra de linha aos elementos colocados no html baseado no tamanho %*/ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap; /*flex-flow: row wrap; Deixa um do lado do outro*/
+                         /*flex-flow: column wrap; Deixa um abaixo do outro */
+    justify-content: flex-end; /*Posição; No caso ao fim do flex a esquerda >> */
+    background-color: #572e4f;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.menu nav {
+    margin: 10px; /* margem para a caixa do nav inteira */
+    padding: 10px; /* Margem para o link dentro do conteiner */
+    
+}
+.menu nav a {
+    text-decoration: none;
+    color: white;
+}
+.menu nav a:hover { /*Hover para quando selecionado fazer a ação abaixo*/
+    border-bottom: 2px solid white; /* Colocar uma borda de 2px abaixo branca */ 
+}
+
+#cabecalho {
+    width: 100%;
+    background-color: #bf1e62;
+
+}
+
+#cabecalho h1 { /*h1 do cabecalho e não todos os h1*/
+    text-align: center; /*alinhado ao centro o texto */
+    color: white;
+    font-size: clamp(1rem, 2rem, 4rem); /* tamanho mínimo, médio e máximo da fonte dependendo do tamanho da tela */
+
+}
+
+#coluna1 {
+    display: flex; /*Cria uma ordem de itens*/
+    flex-wrap: wrap; /*Desmembradmento do flex-flow: wrap criar uma quebra de linha se o limite (lateral no caso) da fileira for superado de elementos */
+    flex-direction: row; /*Desmembradmento do flex-flow: ;  flex-direction: row; = vai criar uma fileira */
+    justify-content: center;
+    width: 20%;
+    background-color: #fce185;
+}
+
+#coluna2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 60%;
+}
+
+#coluna2 h4 {
+    display: block; /*Transforma o elemento em um bloco*/
+    width: 60%; /*Tamanho dos h4 > se muito grande o wrap quebrará a linha e jogará para baixo ao invés pro lado*/
+    text-align: center; /* Centraliza o texto no bloco*/
+    background-color: #572e4f;
+    color: white;
+}
+
+#coluna3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    background-color: #fce185;
+}
+
+#rodape {
+    width: 100%;
+    background-color: #572e4f;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+

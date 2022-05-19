@@ -1,0 +1,81 @@
+# nome = "Edson"
+# if "s" in nome:
+#     print("Está contido")
+# else:
+#     print("Não está contido")
+# continuar = "p"
+# if continuar in {'s','S','n','N'}:
+#     print("Válido")
+# else:
+#     print("Inálido")
+
+
+# try:
+#     valor = int(input("Digite um numero"))
+#     resp = valor + valor
+#     print(resp)
+# except:
+#     print("Houve um erro")
+#         [012345678]
+
+
+# palavra = "programar"
+# print(palavra)
+# print(palavra[6])
+# print(palavra[2:5])
+# print(palavra[0:6])
+# print(palavra[:4])
+# print(palavra[0],palavra[8])
+# print(palavra[0:8:3])
+# palavra[inicio:fim-1:incremento]
+
+
+# #         [012345678]
+# palavra = "programar"
+# #        -[987654321]
+# print(palavra[-4])
+# print(palavra[-9:-1])
+# print(palavra[-9:-1:2])
+# print(palavra[::])
+# print(palavra[::3])
+# nova_palavra = palavra[1:8:2]
+# print(f"{palavra} {nova_palavra}")
+# palavra = "programar"
+
+
+# tamanho = len(palavra) # len: retorna a quantidade de bytes de uma string
+# print(f"A palavra '{palavra}' tem {tamanho} caracteres")
+# Forma "Raiz" de exibir as letras de uma string
+# for cont in range(0,len(palavra),1):
+#     print("Indice:", cont, "Conteudo:",palavra[cont])
+#
+# # Forma Python de exibir as letras de uma string
+# for letra in palavra:
+#     print(letra)
+#
+# palavra = "programar no python"
+# # Conta a quantidade de caracteres em uma string
+# qtd = 0
+# for letra in palavra:
+#     if letra != " ":
+#         qtd += 1
+# print(qtd)
+
+# Conta a quantidade de letras 'a' em uma string
+# qtd = 0
+# for letra in palavra:
+#     if letra == "a":
+#         qtd += 1
+# print(qtd)
+# Trocar os 'a' por 'A'
+palavra = "programar"
+nova_palavra = ""
+for letra in palavra:
+    if letra == 'a':
+        nova_palavra += 'A' # nova_palavra = nova_palavra + 'A'
+    else:
+        nova_palavra += letra
+print(f"Antes: {palavra}\nDepois: {nova_palavra}")
+#
+# palavra     : programar
+# nova_palavra: progrAmAr

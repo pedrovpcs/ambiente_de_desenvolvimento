@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Trabalhando JS</title>
+		<meta charset="UTF-8">
+		<script>
+			var opcoes = ["Papel","Pedra","Tesoura"];
+			var gameover = false;
+			var pontuacao = 0;
+			
+			do{
+				var opcao = parseInt(prompt("Escolha sua jogada: \n 1 - Papel\n 2 - Pedra \n 3 - Tesoura"));
+				if(opcao > 0 && opcao < 4){
+					var resp = Math.ceil(Math.random() * 3);
+					
+					alert("O computador jogou: " + opcoes[resp-1]);
+					
+					if(resp == opcao){
+						alert("A rodada empatou");
+					}
+					else if((opcao == 1 && resp == 2) || (opcao == 2 && resp == 3) || (opcao == 3 && resp == 1)){
+						alert("Você ganhou!");
+						pontuacao++;
+					}
+					else{
+						gameover = true;
+					}	
+				}
+				else{
+					gameover = true;
+				}
+			}
+			while(gameover === false);
+			alert("Você perdeu! A sua pontuação foi de " + pontuacao + " pontos");
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
