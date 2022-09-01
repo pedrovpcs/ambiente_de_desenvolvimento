@@ -1,0 +1,27 @@
+"""
+Calcular a média final de um aluno da FIAP (em uma disciplina)
+PRIMEIRO SEMESTRE
+- A = são 3 checkpoints (o com nota menor é excluido e calculada a media simples dos outros 2)
+- B = media dos Sprint1 e Sprint2
+- C = Prova semestral
+- A + B vale 40%
+- C vale 60 %
+- Media primeiro semestre vale 40% da media final
+SEGUNDO SEMESTRE
+- A = são 3 checkpoints (o com nota menor é excluido e calculada a media simples dos outros 2)
+- B = media dos Sprint1 e Sprint2
+- C = Prova semestral
+- A + B vale 40%
+- C vale 60 %
+- Media primeiro semestre vale 60% da media final
+MEDIA ANUAL
+- Pimeiro semestre (40%) + Segundo semestre (60%)
+STATUS
+- Reprovado direto: abaixo de 4
+- Aprovado direto: maior ou igual a 6
+- Exame: Entre 4 e 5.9
+    - Prova exame
+    - media final é a média da média anual com a prova de exame
+        se a media final for maior ou igual a 6 "Aprovado em Exame"
+        senao exibir "Reprovado em exame
+"""

@@ -1,0 +1,39 @@
+EXERCÍCIOS:
+1. Crie um procedimento chamado "saudacao3" que passe como parâmetro uma MSG: "Bom dia", "Boa Tarde" ou "Boa noite"
+e um NOME e exiba a mensagem na tela:
+protótipo: saudacao3(msg, nome)
+Tela: Boa noite Edson, seja bem vindo a FIAP
+2. Crie um procedimento chamado "saudacao4" que passe como parâmetro uma HORA e um NOME e exiba a mensagem na tela:
+protótipo: saudacao4(16, nome)
+Tela: <Boa TARDE> <Edson>, seja bem vindo a FIAP
+3. Crie um procedimento chamado "saudacao5" que passe como parâmetro uma HORA e um NOME deixando como padrão
+"Boa Noite" e "Edson" e exiba a mensagem na tela:
+protótipo 1: saudacao5(11, "Maria")
+Bom dia Maria, seja bem vindo a FIAP
+protótipo 2: saudacao5()
+Tela: Bom dia Maria, seja bem vindo a FIAP
+
+4. Crie uma função que retorne o proximo número ao passado por parâmetro.
+protótipo: prox_num(5)
+Retorno: 6
+5. Crie uma função que retorne o maior entre dois números passados por parâmetro
+protótipo: maior_2n(15,98)
+Retorno: 98
+6. Crie uma função que retorne o maior entre três números passados por parâmetro
+protótipo: maior_3n(115,23,8)
+Retorno: 115
+7. Crie uma função que retorne o próximo numero multiplo 5 tomando como base o que foi passado por parâmetro.
+protótipo: prox_mult5(13)
+Retorno: 15
+8. Crie uma função que retorne o próximo numero multiplo N tomando como base o que foi passado por parâmetro.
+N Tambem deve ser pasado por parâmetro.
+protótipo: prox_multn(7,17)
+Retorno: 21
+
+9. Crie uma função que passe um número por parâmetro e retorne o seu fatorial.
+Protótipo: fatorial(4)
+Retorno: 24
+
+10. Crie uma função que passe a base e o expoente por parâmetro e retorne a potencia.
+Protótipo: exponenciacao(2, 4)
+Retorno: 16

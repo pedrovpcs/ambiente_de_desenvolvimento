@@ -1,0 +1,83 @@
+"""
+EXERCÍCIOS:
+1 - Preencher uma lista com dez elementos float.
+2 - Exibir o conteúdo de uma lista
+3 - Somar os elementos numéricos da lista
+4 - Calcular a média dos elementos
+5 - Verificar quantos elementos estão acima da média
+6 - mostrar o maior e o menor item da lista. min() e max()
+7 - Exibir apenas os elementos negativos
+8 - Exibir os elementos com índice ímpar
+9 - Verificar se um elemento passado por parâmetro está na lista
+10 - Guardar numa segunda lista boleana True caso o elemento esteja acima da média, caso contrário False
+"""
+############## DEFINIÇÃO DOS SUBALGORITMOS ####################
+"""
+Preencher uma lista com dez elementos float.
+PROTÓTIPO: preencheLista(l: lista): void
+"""
+def preencheLista(l): # l é chamado de parâmetro formal
+    for i in range(0, 10, 1):
+        elemento = float(input(f"{' '*12}Digite o {i + 1}.o elemento: "))
+        l.append(elemento)
+
+"""
+Exibe uma lista com dez elementos float.
+PROTÓTIPO: exibeLista(l: lista): void
+"""
+def exibeLista(l):
+    for i in range(0, 10, 1):
+        print(f"{' '*12}Elemento {i+1} = {l[i]}")
+
+"""
+Soma os elementos da lista.
+PROTÓTIPO: somaElementos(l: lista): Float
+"""
+def somaElementos(l):
+    soma = 0
+    for i in range(0, 10, 1):
+        soma += l[i]
+    return soma
+
+"""
+Média dos elementos da lista.
+PROTÓTIPO: mediaElementos(l: lista): Float
+"""
+def mediaElementos(l):
+    return somaElementos(l) / 10
+
+"""
+Exibe o menu.
+PROTÓTIPO: menu(): void
+"""
+def menu():
+    print("""
+            ######### M E N U #########
+            0 - Sair
+            1 - Preencher a Lista
+            2 - Exibir a Lista
+            3 - Somar os elementos da lista
+            4 - Media dos elementos da lista
+    """)
+
+
+############## PROGRAMA PRINCIPAL ####################
+lista = []
+
+while True:
+    menu()
+    opcao = int(input(f"{' '*12}Digite a opção: "))
+    if opcao == 0:
+        break
+    elif opcao == 1:
+        preencheLista(lista) # lista é chamada de parâmetro Real
+    elif opcao == 2:
+        exibeLista(lista)
+    elif opcao == 3:
+        print(f"{' '*12}Soma = {somaElementos(lista)}")
+    elif opcao == 4:
+        print(f"{' ' * 12}Media = {mediaElementos(lista)}")
+
+
+
+
