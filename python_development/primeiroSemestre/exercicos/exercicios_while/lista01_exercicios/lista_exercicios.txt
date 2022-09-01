@@ -1,0 +1,14 @@
+# EXERCÍCIOS
+# 1. Dada uma mensagem pelo usuário, exibí-la 10x
+#   ENTRADA: oi        SAÍDA: oi oi oi oi oi oi oi oi oi oi
+
+
+
+# 2. Dada uma mensagem e a quantidade de vezes, exibi-la na tela
+#   ENTRADA: oi 4      SAÍDA: oi oi oi oi
+
+
+
+# # 3. Dado um número, exibir os seus  próximos 5 multiplos (contando ele)
+# #   ENTRADA: 2      SAÍDA: 2 4 6 8 10
+

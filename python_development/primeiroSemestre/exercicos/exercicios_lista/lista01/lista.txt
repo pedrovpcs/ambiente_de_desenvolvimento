@@ -1,0 +1,11 @@
+# EXERCÍCIOS:
+# 1 - Preencher uma lista com dez elementos float.
+# 2 - Exibir o conteúdo de uma lista
+# 3 - Somar os elementos numéricos da lista
+# 4 - Calcular a média dos elementos
+# 5 - Verificar quantos elementos estão acima da média
+# 6 - mostrar o maior e o menor item da lista
+# 7 - Exibir apenas os elementos negativos
+# 8 - Exibir os elementos com índice ímpar
+# 9 - Guardar numa segunda lista boleana True caso o elemento esteja acima da média, caso contrário False
+# falar sobre a segunda entrega do challenge

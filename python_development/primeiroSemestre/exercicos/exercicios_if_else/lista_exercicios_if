@@ -1,0 +1,192 @@
+Assunto: Lista de exercícios envolvendo as instruções estrutura de decisão: SE
+Conceitos Envolvidos:
+ Se...então...
+ Se... então... senão...
+ Se´s aninhados
+
+
+
+
+1. Dado um número pelo usuário, verificar se ele é positivo, exibindo a mensagem “O numero é
+positivo” ou “O numero não é positivo”.
+Entrada: 45 Saída: O numero é positivo
+Entrada: -3 Saída: O numero não é positivo
+Entrada: 0 Saída: O numero não é positivo
+
+
+2. Dada uma idade pelo usuário, verificar e exibir a mensagem “Você é menor de Idade” ou “Você é
+maior de Idade”.
+Entrada: 15 Saída: Você é menor de Idade
+Entrada: 33 Saída: Você é maior de Idade
+
+
+3. Dado um número pelo usuário, verificar se ele é “O número é par” ou “O número é impar”,
+exibindo sua respectiva mensagem.
+Entrada: 3 Saída: O numero é impar
+Entrada: 10 Saída: O numero é par
+
+
+4. Dados dois números pelo usuário, exibir o de maior valor.
+Entrada: 5 45 Saída: 45
+Entrada: 10 8 Saída: 10
+
+
+5. Dadas duas notas, calcular e exibir a média simples das mesmas. Caso a média seja inferior a 5
+exibir “Você está reprovado”, senão exibir “Você está aprovado”.
+Entrada: 7.0 5.0 Saída: 6.0 – Você está aprovado
+Entrada: 4.5 3.5 Saída: 4.0 – Você está reprovado
+
+
+6. Dada uma nota, verificar se ela é válida, ou seja, se ela estiver entre 0 e 10 (inclusive) ela é uma
+“Nota válida”, senão “Nota inválida”.
+Entrada: 3.5 Saída: Nota válida
+Entrada: 11.5 Saída: Nota Inválida
+
+
+7. Juntar os dois exercícios anteriores, ou seja, pedir a digitação das duas notas, caso uma (ou as duas)
+nota seja inválida exibir “Nota inválida!” e terminar o algoritmo; senão, calcular e exibir a média e
+exibir se está aprovado (vide saída do exercício anterior).
+Entrada: 10.0 4.0 Saída: 7.0 – Você está aprovado
+Entrada: 2.0 3.0 Saída: 2.5 – Você está reprovado
+Entrada: 14.0 Saída: Nota Inválida!
+Entrada: 5.0 -6.0 Saída: Nota Inválida!
+
+
+8. Dado um número pelo usuário, verifique se ele é “Positivo”, “Negativo” ou “Nulo”(igual a zero).
+Entrada: 3 Saída: Positivo
+Entrada: -5 Saída: Negativo
+Entrada: 0 Saída: Nulo
+
+
+9. Dadas três notas (AV1, AV2 e AV3), fazer um algoritmo que calcule a media. A média consiste em
+descartar a menor nota entre as 3 médias calculando a média simples das outras duas. Exibir se o
+aluno está “Aprovado” ou “Reprovado” (média menor do que 6).
+Entrada: 3.0 7.0 5.0 Saída: 5.0 - Reprovado
+Entrada: 5.5 6.0 7.5 Saída: 6.5 – Aprovado
+
+
+10. Dentre três números dados pelo usuário, verificar e exibir o de maior valor.
+Entrada: 10 6 17 Saída: 17
+Entrada: 5 15 10 Saída: 15
+Entrada: 5 -1 0 Saída: 5
+
+
+11. Dada a tabela de cálculo do INSS:
+Salário Alíquota para fins de recolhimento
+ao INSS (%)
+até 1.247,70 8,00
+de 1.247,71 até 2.079,50 9,00
+de 2.079,51 até 4.159,00 11,00
+Acima de 4.159,00 Cobrar teto de 468,00
+Fazer um algoritmo que leia o salário do contribuinte e calcule quanto ele irá pagar de INSS.
+Entrada: 1100.00 Saída: 88.00
+Entrada: 2000.00 Saída: 180.00
+Entrada: 3456.78 Saída: 380.24
+Entrada: 9000.00 Saída: 468.00
+
+
+12. Dada a tabela de cálculo do IR:
+Salário-de-contribuição (R$) Alíquota Dedução (R$)
+até 1.710,78 isento 0
+de 1.710,79 até 2.563,91 7,5% 128,31
+de 2.563,92 até 3.418,59 15% 320,60
+de 3.418,60 até 4.271,59 22,5% 577,00
+Acima de 4.271,59 27,5% 790,58
+Fazer um algoritmo que leia o salário do contribuinte e calcule quanto ele terá que pagar de
+Imposto de Renda (IR).
+Entrada: 1100.00 Saída: 0.00
+Entrada: 2000.00 Saída: 21.69
+Entrada: 3123.45 Saída: 147.91
+Entrada: 3891.12 Saída: 298.50
+Entrada: 9000.00 Saída: 1684.42
+
+
+13. Juntar os dois exercícios anteriores, ou seja, pedir a digitação do Salário Bruto e calcular o INSS e IR
+devido. Exibir o Salário Bruto, INSS, IR e Salário Líquido.
+Entrada: 1043.12 Saída: 1043.12 84.45 0.00 959.67
+Entrada: 1795.42 Saída: 1795.42 161.59 134.66 1499.18
+Entrada: 3011.45 Saída: 3011.45 331.26 451.72 2228.47
+Entrada: 3891.12 Saída: 3891.12 428.02 875.50 2587.59
+Entrada: 9000.00 Saída: 9000.00 468.00 2475.00 6057.00
+
+
+14. Dados três números pelo usuário, exibi-los em ordem crescente.
+Entrada: 1 2 3 Saída: 1 2 3
+Entrada: 1 3 2 Saída: 1 2 3
+Entrada: 2 1 3 Saída: 1 2 3
+Entrada: 2 3 1 Saída: 1 2 3
+Entrada: 3 1 2 Saída: 1 2 3
+Entrada: 3 2 1 Saída: 1 2 3
+
+15. Dados três números pelo usuário, analisá-los e exibir a mensagem “3 números diferentes”, “2 dos 3
+são iguais” ou “3 números iguais”.
+Entrada: 1 2 3 Saída: 3 números diferentes
+Entrada: 1 2 2 Saída: 2 dos 3 são iguais
+Entrada: 2 1 2 Saída: 2 dos 3 são iguais
+Entrada: 2 2 1 Saída: 2 dos 3 são iguais
+Entrada: 3 3 3 Saída: 3 números iguais
+
+
+16. Dado o salário de uma pessoa, sexo (1 para Masculino e 2 para Feminino) e idade, verificar a tabela
+abaixo e calcular a devida cobrança de convênio médico sobre o salário informado:
+Idade Masculino Feminino
+Até 20 anos 5,34% 3,56%
+Acima de 20 até 40 anos 8,44% 6,43%
+Acima dos 40 anos 10,12% 8,02%
+Entrada: 1500.00 1 45 Saída: Valor do convenio: R$ 80.10
+Entrada: 1600.00 2 42 Saída: Valor do convenio: R$ 56.96
+Entrada: 2123.43 1 19 Saída: Valor do convenio: R$ 113.39
+Entrada: 2600.00 2 18 Saída: Valor do convenio: R$ 92.96
+Entrada: 2000.00 1 30 Saída: Valor do convenio: R$ 168.80
+Entrada: 2000.00 2 29 Saída: Valor do convenio: R$ 128.60
+
+
+17. Um professor usa Provas e Atividades para compor a nota AV1. Ele usa 2 provas e 4 atividades (os
+valores são digitados nesta ordem). A média das provas vale 60% da AV1 enquanto que as
+atividades valem 0 ou 1 ponto cada. Considerando que a media é 6,0 faça um algoritmo que calcule
+a AV1 e mostre a mensagem: “AV1 = X.X, você está acima da média.”, “AV1 = 6.0, você está na
+média.” ou “AV1 = X.X, você está abaixo da média.”.
+Entrada: 4.0 5.0 1 1 1 0 Saída: AV1 = 5.7, você está abaixo da média.
+Entrada: 6.0 4.0 0 1 1 1 Saída: AV1 = 6.0, você está na média.
+Entrada: 7.0 5.0 1 1 1 1 Saída: AV1 = 7.6, você está acima da média.
+
+
+18. Dados 3 numero pelo usuário, verificar se são diferentes, se forem exibir o numero com valor
+intermediário, senão (se houver 2 ou 3 números iguais) exibir a mensagem “Os números não são
+diferentes”.
+Entrada: 4 9 7 Saída: 7
+Entrada: 14 7 7 Saída: Os números não são diferentes
+Entrada: 12 2 30 Saída: 12
+Entrada: 3 3 3 Saída: Os números não são diferentes
+Entrada: 45 67 76 Saída: 67
+
+
+19. Dados 3 valores numéricos correspondentes a eventuais lados de triângulo, verificar se esses
+valores formam um triângulo (para cada lado, a soma dos outros dois lados deve ser maior do que
+ele). Se formar, exibir a mensagem “Forma um triângulo”, senão “Não forma um triângulo”.
+Entrada: 10 11 12 Saída: Forma um triângulo
+Entrada: 2 7 10 Saída: Não forma um triângulo
+Entrada: 4 7 7 Saída: Forma um triângulo
+Entrada: 34 10 14 Saída: Não forma um triângulo
+Entrada: 15 15 15 Saída: Forma um triângulo
+
+
+20. Dados 3 valores numéricos correspondentes a eventuais lados de triângulo, verificar se esses
+valores formam um triângulo (para cada lado, a soma dos outros dois lados deve ser maior do que
+ele). Em caso afirmativo, informar ao usuário se o triângulo é equilátero (três lados iguais),isósceles (dois lados iguais) ou escaleno (três lados diferentes). Em caso negativo, exibir “Não forma
+um triângulo”.
+Entrada: 10 11 12 Saída: Triângulo Escaleno
+Entrada: 2 7 10 Saída: Não forma um triângulo
+Entrada: 4 7 7 Saída: Triângulo Isósceles
+Entrada: 34 10 14 Saída: Não forma um triângulo
+Entrada: 15 15 15 Saída: Triângulo Equilátero
+
+
+21. Dado o ano pelo usuário, verificar se o ano é bissexto exibindo a mensagem “Ano bissexto” ou
+“Não é ano bissexto”. Sabe-se que o ano bissexto é aquele que é múltiplo de 4, exceto os múltiplos
+de 100 que não sejam múltiplos de 400. Por exemplo: 1996, 2004, 2008, 2012, 1600, 2000 e 2400
+(são bissextos); 1700, 1800, 1900 e 2100 (não são bissextos).
+Entrada: 2013 Saída: Não é ano bissexto
+Entrada: 2008 Saída: É ano bissexto
+Entrada: 1881 Saída: Não é ano bissexto
+Entrada: 2012 Saída: É ano bissexto
